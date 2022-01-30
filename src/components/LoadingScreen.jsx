@@ -1,7 +1,7 @@
 import React from "react";
 import RiseLoader from "react-spinners/RiseLoader";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./LoadingScreen.css";
+import "./Components.css";
 export const LoadingScreen = ({ setLoading, setColumns, setRows }) => {
   return (
     <div className="text-center mt-5 container-fluid">
